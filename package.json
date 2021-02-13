@@ -5,7 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "build": "npx webpack"
+    "build": "yarn install && npx webpack",
+    "run": "node dist/index"
   },
   "author": "Wessel van der Veen",
   "license": "ISC",
