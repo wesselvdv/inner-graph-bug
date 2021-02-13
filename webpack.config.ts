@@ -24,7 +24,7 @@ export default {
     // @ts-ignore
     optimization: {
         minimize: false,
-        // innerGraph: false
+        // innerGraph: false enable this to see that the O.if is included.
     },
     resolve: {
         extensions: ['.tsx', '.ts', '.js', '.mjs'],
